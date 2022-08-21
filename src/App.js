@@ -1,7 +1,10 @@
+import React from "react";
+import Header from "./Components/Header";
+
 function App() {
   return (
-    <div className=" ">
-      <h1>Pls Hire Me</h1>
+    <div className="">
+      <Header />
     </div>
   );
 }
