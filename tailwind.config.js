@@ -5,8 +5,8 @@ module.exports = {
     screens: {
       sm: "480px",
       md: "768px",
-      lg: "976px",
-      xl: "1440px",
+      lg: "992px",
+      xl: "1200px",
     },
     extend: {
       colors: {
@@ -21,10 +21,11 @@ module.exports = {
       fontSize: {
         xs: ".75rem",
         sm: ".875rem",
-        base: "1rem",
-        md: "1.8rem",
-        l: "4rem",
-        xl: "8rem",
+        base: "1.35rem",
+        baselg: "1.68rem",
+        md: "2rem",
+        l: "2.5rem",
+        xl: "3.5rem",
       },
       width: {
         small: "5rem",

@@ -6,28 +6,28 @@ import myImage from "./imgs/me.jpg";
 
 const Header = () => {
   return (
-    <header className="relative container mx-auto flex justify-center">
-      <div className=" mt-20 flex flex-col items-center md:items-start md:flex-row md:mr-[30rem] ">
-        <div className=" ">
-          <div className="mb-10 flex flex-col items-center md:mb-28 md:items-start">
-            <h1 className="font-bold text-5xl md:text-base">BRAN</h1>
-            <h1 className="font-bold text-5xl md:text-base">DON.</h1>
+    <header className="relative container mx-auto">
+      <div className="flex flex-col items-center mt-20 md:items-start">
+        <div className="flex flex-col  ">
+          <div className=" mb-[5rem] flex flex-col items-center md:items-start">
+            <h1 className="font-bold text-l  md:text-base">BRAN</h1>
+            <h1 className="font-bold text-l  md:text-base">DON.</h1>
           </div>
-          <div className="">
-            <div className="flex mb-10 space-x-5  justify-center md:justify-start">
+          <div className="mb-5">
+            <div className=" flex flex-row  justify-center  md:justify-start space-x-3 mb-20">
               <a href="https://github.com/BrandonCarp">
                 <FaGithub size="2rem" />
               </a>
               <a href="#">
                 <FaLinkedin size="2rem" />
               </a>
-              <a href="#">
+              <a href="https://www.instagram.com/bcarpol/">
                 <FaInstagram size="2rem" />
               </a>
             </div>
-            <div className="w-[20rem] ml-10 mb-5 font-bold text-md md:text-l md:w-[70rem] md:ml-0 ">
+            <div className="flex flex-col items-center p-1 font-bold text-md md:text-xl md:items-start">
               <h1 className="">Hi there, I'm Brandon.</h1>
-              <h1>
+              <h1 className="">
                 Front End
                 <span className="text-secondaryPurple"> Developer</span>,
               </h1>
@@ -35,8 +35,8 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div className=" flex flex-col-reverse items-center  md:mt-[32rem] md:absolute md:flex md:flex-row ">
-          <div className="text-lightGrey space-y-5  font-bold w-[20rem] mr-5 md:w-[50rem]  md:space-y-20 md:text-3xl">
+        <div className=" flex flex-col-reverse p-5 md:flex-row p5">
+          <div className="text-lightGrey space-y-5  font-bold mt-10 md:w-[45rem] md:mt-0 md:mr-5 lg:text-base xl:text-baselg">
             <p>
               I'm a 29-year-old Self-Taught Developer, coming out of the
               Philadelphia Metropolitan Area.
@@ -55,8 +55,8 @@ const Header = () => {
               learning full stack.
             </p>
           </div>
-          <div className=" w-[20rem] mb-10   md:w-[60rem] ">
-            <img className="" src={myImage} alt="me" />
+          <div className=" ">
+            <img className="rounded" src={myImage} alt="me" />
           </div>
         </div>
       </div>
