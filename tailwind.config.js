@@ -16,6 +16,7 @@ module.exports = {
         secondaryPurple: "#7E8CE0",
         secondaryBlue: "#36C7D0",
         secondaryPink: "#FFA48E",
+        linkedInColor: "#0072b1",
         lightGrey: "#808080",
       },
       fontSize: {

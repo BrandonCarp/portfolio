@@ -3,6 +3,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import myImage from "./imgs/me.jpg";
+import myLogo from "./imgs/lightlogo.png";
 
 const Header = () => {
   return (
@@ -13,16 +14,19 @@ const Header = () => {
             <h1 className="font-bold text-l  md:text-base">BRAN</h1>
             <h1 className="font-bold text-l  md:text-base">DON.</h1>
           </div>
+          <div className="invisible absolute  ml-[50rem]  lg:visible">
+            <img className="w-[15rem] " src={myLogo} alt="coding" />
+          </div>
           <div className="mb-5">
             <div className=" flex flex-row  justify-center  md:justify-start space-x-3 mb-20">
-              <a href="https://github.com/BrandonCarp">
-                <FaGithub size="2rem" />
+              <a className="" href="https://github.com/BrandonCarp">
+                <FaGithub size="2rem" className="hover:text-secondaryPurple" />
               </a>
               <a href="#">
-                <FaLinkedin size="2rem" />
+                <FaLinkedin size="2rem" className="hover:text-linkedInColor" />
               </a>
               <a href="https://www.instagram.com/bcarpol/">
-                <FaInstagram size="2rem" />
+                <FaInstagram size="2rem" className="hover:text-secondaryPink" />
               </a>
             </div>
             <div className="flex flex-col items-center p-1 font-bold text-md md:text-xl md:items-start">
