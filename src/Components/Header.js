@@ -3,35 +3,42 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import myImage from "./imgs/me.jpg";
-import myLogo from "./imgs/lightlogo.png";
 
 const Header = () => {
   return (
-    <header className="relative container mx-auto">
-      <div className="flex flex-col items-center mt-20 md:items-start">
+    <header className="relative container mx-auto ">
+      <div className="flex flex-col items-center  mt-20 md:items-start">
         <div className="flex flex-col  ">
-          <div className=" mb-[5rem] flex flex-col items-center md:items-start">
+          <div className=" mb-[5rem] flex flex-col items-center   md:items-start">
             <h1 className="font-bold text-l  md:text-base">BRAN</h1>
             <h1 className="font-bold text-l  md:text-base">DON.</h1>
           </div>
-          <div className="invisible absolute  ml-[50rem]  lg:visible">
-            <img className="w-[15rem] " src={myLogo} alt="coding" />
-          </div>
+          <div className="invisible absolute  lg:ml-[40rem] xl:ml-[50rem]  lg:visible"></div>
           <div className="mb-5">
             <div className=" flex flex-row  justify-center  md:justify-start space-x-3 mb-20">
               <a className="" href="https://github.com/BrandonCarp">
-                <FaGithub size="2rem" className="hover:text-secondaryPurple" />
+                <FaGithub
+                  size="2rem"
+                  className="transition ease-in-out delay-150  hover:text-secondaryPurple hover:-translate-y-1 hover:scale-110 duration-300"
+                />
               </a>
               <a href="#">
-                <FaLinkedin size="2rem" className="hover:text-linkedInColor" />
+                <FaLinkedin
+                  size="2rem"
+                  className="transition ease-in-out delay-150  hover:text-linkedInColor hover:-translate-y-1 hover:scale-110 duration-300"
+                />
               </a>
               <a href="https://www.instagram.com/bcarpol/">
-                <FaInstagram size="2rem" className="hover:text-secondaryPink" />
+                <FaInstagram
+                  size="2rem"
+                  className="transition ease-in-out delay-150  hover:text-secondaryPink hover:-translate-y-1 hover:scale-110 duration-300"
+                />
               </a>
             </div>
-            <div className="flex flex-col items-center p-1 font-bold text-md md:text-xl md:items-start">
+            {/* <div className="flex flex-col items-center  justify-center p-1 font-bold  text-md md:text-xl md:items-start "> */}
+            <div className="flex flex-col items-center   p-1 font-bold   text-md md:text-l lg:text-xl  ">
               <h1 className="">Hi there, I'm Brandon.</h1>
-              <h1 className="">
+              <h1 className="text-spsml md:text-spmd lg:text-spl">
                 Front End
                 <span className="text-secondaryPurple"> Developer</span>,
               </h1>
@@ -53,10 +60,10 @@ const Header = () => {
             <p>
               My anime coding back story started out 2 years ago dabbling with
               html and css for fun. However, I finally got hooked on phonics in
-              2021 learning vanilla javascript and general web development last
-              year from a mentor. I have since gone on completing multiple
-              vanila javascript, and react projects. I am currently working on
-              learning full stack.
+              2021 learning vanilla javascript and general web development
+              basics. I have since gone on completing multiple vanila
+              javascript, and react projects. I am currently working on learning
+              full stack.
             </p>
           </div>
           <div className=" ">
