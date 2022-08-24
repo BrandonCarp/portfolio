@@ -47,7 +47,7 @@ const Header = () => {
           </div>
         </div>
         <div className=" flex flex-col-reverse p-5 md:flex-row p5">
-          <div className="text-lightGrey space-y-5  font-bold mt-10 md:w-[45rem] md:mt-0 md:mr-5 lg:text-base xl:text-baselg">
+          <div className=" text-lightGrey space-y-5  font-bold mt-10 md:w-[45rem] md:mt-0 md:flex md:flex-col md:justify-center md:mr-5 lg:text-base xl:text-baselg">
             <p>
               I'm a 29-year-old Self-Taught Developer, coming out of the
               Philadelphia Metropolitan Area.
