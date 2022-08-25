@@ -34,6 +34,9 @@ module.exports = {
       width: {
         small: "5rem",
       },
+      listStyle: {
+        circle: "circle",
+      },
     },
   },
   plugins: [],

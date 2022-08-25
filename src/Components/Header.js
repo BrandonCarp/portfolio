@@ -6,8 +6,8 @@ import myImage from "./imgs/me.jpg";
 
 const Header = () => {
   return (
-    <header className="relative container mx-auto ">
-      <div className="flex flex-col items-center  mt-20 md:items-start">
+    <header className="relative container mx-auto h-screen">
+      <div className="flex flex-col items-center  mt-10 md:items-start">
         <div className="flex flex-col  ">
           <div className=" mb-[5rem] flex flex-col items-center   md:items-start">
             <h1 className="font-bold text-l  md:text-base">BRAN</h1>
@@ -22,7 +22,7 @@ const Header = () => {
                   className="transition ease-in-out delay-150  hover:text-secondaryPurple hover:-translate-y-1 hover:scale-110 duration-300"
                 />
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/brandon-carpenter-559b15203/">
                 <FaLinkedin
                   size="2rem"
                   className="transition ease-in-out delay-150  hover:text-linkedInColor hover:-translate-y-1 hover:scale-110 duration-300"
