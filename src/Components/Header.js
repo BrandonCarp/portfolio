@@ -6,7 +6,7 @@ import myImage from "./imgs/me.jpg";
 
 const Header = () => {
   return (
-    <header className="relative container mx-auto h-screen">
+    <header className="relative mb-[15rem] md:mb-[-15rem] lg:mb-[-5rem] xl:mb-10  container mx-auto h-screen ">
       <div className="flex flex-col items-center  mt-10 md:items-start">
         <div className="flex flex-col  ">
           <div className=" mb-[5rem] flex flex-col items-center   md:items-start">
@@ -39,7 +39,7 @@ const Header = () => {
             <div className="flex flex-col items-center   p-1 font-bold   text-md md:text-l lg:text-xl  ">
               <h1 className="">Hi there, I'm Brandon.</h1>
               <h1 className="text-spsml md:text-spmd lg:text-spl">
-                Front End
+                Full Stack
                 <span className="text-secondaryPurple"> Developer</span>,
               </h1>
               <h1>Linguist, and Dog Dad.</h1>

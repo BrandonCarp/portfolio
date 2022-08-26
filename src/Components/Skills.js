@@ -2,7 +2,7 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <div className="container relative mx-auto  mb-[10rem]">
+    <div className="container relative mx-auto   mb-[10rem]">
       <div className="space-y-10">
         <div className="px-3">
           <h1 className="text-l">My Skills</h1>
