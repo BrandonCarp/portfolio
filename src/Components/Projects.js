@@ -88,7 +88,11 @@ const Projects = () => {
           </div>
         </div>
         <div className="flex flex-col justify-center space-y-10">
-          <img className="mt-10" src={twitter} alt="twitter showcase app" />
+          <img
+            className="mt-10 lg:h-[40rem]"
+            src={twitter}
+            alt="twitter showcase app"
+          />
           <div className="space-y-5 md:flex md:flex-col md:items-center">
             <h1 className="text-l">Twitter Showcase</h1>
             <p className="text-lightGrey font-light md:text-base">
