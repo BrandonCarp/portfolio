@@ -10,7 +10,8 @@ module.exports = {
     },
     extend: {
       colors: {
-        primaryDark: "#262833",
+        primaryDark: "#111114",
+        secondaryDark: "#131316",
         secondaryOrange: "#262833",
         secondaryGreen: "#4ACFAC",
         secondaryPurple: "#7E8CE0",
@@ -27,7 +28,7 @@ module.exports = {
         md: "2.5rem",
         l: "2.8rem",
         xl: "3.5rem",
-        spsml: "3rem",
+        spsml: "2rem",
         spmd: "3.5rem",
         spl: "4rem",
       },

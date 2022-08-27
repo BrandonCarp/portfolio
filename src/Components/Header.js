@@ -6,37 +6,37 @@ import myImage from "./imgs/me.jpg";
 
 const Header = () => {
   return (
-    <header className="relative mb-[15rem] md:mb-[-15rem] lg:mb-[-5rem] xl:mb-10  container mx-auto h-screen ">
+    <header className="relative mb-[5rem]  md:mb-[15rem] lg:mb-[10rem] xl:mb-[10rem]  container mx-auto  ">
       <div className="flex flex-col items-center  mt-10 md:items-start">
         <div className="flex flex-col  ">
-          <div className=" mb-[5rem] flex flex-col items-center   md:items-start">
-            <h1 className="font-bold text-l  md:text-base">BRAN</h1>
-            <h1 className="font-bold text-l  md:text-base">DON.</h1>
+          <div className=" mb-[1rem] md:mb-[5rem] flex flex-col items-center   md:items-start">
+            <h1 className="font-bold text-md  md:text-base">BRAN</h1>
+            <h1 className="font-bold text-md  md:text-base">DON.</h1>
           </div>
           <div className="invisible absolute  lg:ml-[40rem] xl:ml-[50rem]  lg:visible"></div>
-          <div className="mb-5">
-            <div className=" flex flex-row  justify-center  md:justify-start space-x-3 mb-20">
+          <div className="mb-1">
+            <div className=" flex flex-row  justify-center  md:justify-start space-x-3 mb-10 md:mb-20">
               <a className="" href="https://github.com/BrandonCarp">
                 <FaGithub
-                  size="2rem"
-                  className="transition ease-in-out delay-150  hover:text-secondaryPurple hover:-translate-y-1 hover:scale-110 duration-300"
+                  size="1.8rem"
+                  className="transition ease-in-out delay-150   hover:text-secondaryPurple hover:-translate-y-1 hover:scale-110 duration-300"
                 />
               </a>
               <a href="https://www.linkedin.com/in/brandon-carpenter-559b15203/">
                 <FaLinkedin
-                  size="2rem"
+                  size="1.8rem"
                   className="transition ease-in-out delay-150  hover:text-linkedInColor hover:-translate-y-1 hover:scale-110 duration-300"
                 />
               </a>
               <a href="https://www.instagram.com/bcarpol/">
                 <FaInstagram
-                  size="2rem"
-                  className="transition ease-in-out delay-150  hover:text-secondaryPink hover:-translate-y-1 hover:scale-110 duration-300"
+                  size="1.8rem"
+                  className="transition ease-in-out delay-150 hover:text-secondaryPink hover:-translate-y-1 hover:scale-110 duration-300"
                 />
               </a>
             </div>
-            {/* <div className="flex flex-col items-center  justify-center p-1 font-bold  text-md md:text-xl md:items-start "> */}
-            <div className="flex flex-col items-center   p-1 font-bold   text-md md:text-l lg:text-xl  ">
+
+            <div className="flex flex-col justify-start p-1 font-bold   text-base md:text-l lg:text-xl  ">
               <h1 className="">Hi there, I'm Brandon.</h1>
               <h1 className="text-spsml md:text-spmd lg:text-spl">
                 Full Stack
