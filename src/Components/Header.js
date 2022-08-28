@@ -3,7 +3,15 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import myImage from "./imgs/me.jpg";
-// import { Transition } from "react-transition-group";
+
+// {
+//   "short_name": "React App",
+//   "name": "Create React App Sample",
+//   "start_url": ".",
+//   "display": "standalone",
+//   "theme_color": "#000000",
+//   "background_color": "#ffffff"
+// }
 
 const Header = () => {
   return (
