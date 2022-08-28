@@ -17,7 +17,7 @@ const Footer = () => {
             brancarp93@gmail.com
           </a>
         </div>
-        <div className="flex flex-row space-x-[10rem] md:space-x-[30rem] lg:space-x-[40rem] xl:space-x-[60rem]">
+        <div className="flex flex-row space-x-[8rem] md:space-x-[30rem] lg:space-x-[40rem] xl:space-x-[60rem]">
           <div className="flex flex-col">
             <div>BRAN</div>
             <div>DON.</div>
