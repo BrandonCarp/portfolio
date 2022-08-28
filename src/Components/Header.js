@@ -4,15 +4,6 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import myImage from "./imgs/me.jpg";
 
-// {
-//   "short_name": "React App",
-//   "name": "Create React App Sample",
-//   "start_url": ".",
-//   "display": "standalone",
-//   "theme_color": "#000000",
-//   "background_color": "#ffffff"
-// }
-
 const Header = () => {
   return (
     <header className="relative mb-[5rem]  md:mb-[15rem] lg:mb-[10rem] xl:mb-[10rem]  container mx-auto  ">
@@ -48,7 +39,7 @@ const Header = () => {
             <div className="flex flex-col justify-start p-1 font-bold   text-base md:text-l lg:text-xl  ">
               <h1 className="">Hi there, I'm Brandon.</h1>
               <h1 className="text-spsml md:text-spmd lg:text-spl">
-                Full Stack
+                Font End
                 <span className="text-secondaryPurple"> Developer</span>,
               </h1>
               <h1>Linguist, and Dog Dad.</h1>
