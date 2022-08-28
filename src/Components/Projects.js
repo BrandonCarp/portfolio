@@ -62,16 +62,13 @@ const Projects = () => {
                 {"&"} Css
               </p>
               <a
-                href="https://brandoncarp-swapi-app.herokuapp.com/"
+                href="https://brandoncarp.github.io/calc.html"
                 className="flex   hover:underline hover:underline-offset-4 "
               >
                 View Project <FaArrowRight className="ml-[.5rem] mt-[.2rem]" />
               </a>
             </div>
-            <div
-              href="https://brandoncarp-react-expenses.herokuapp.com/"
-              className="space-y-3"
-            >
+            <div className="space-y-3">
               <img className="" src={snake} alt="snake game" />
               <h3 className="text-md">Classic Snake Game</h3>
               <p className="text-lightGrey font-light lg:text-base">
@@ -79,7 +76,7 @@ const Projects = () => {
                 Javascript {"&"} Css
               </p>
               <a
-                href="https://brandoncarp-react-expenses.herokuapp.com/"
+                href="https://brandoncarp.github.io/snake.html"
                 className="flex hover:underline hover:decoration-2 hover:underline-offset-4"
               >
                 View Project <FaArrowRight className="ml-[.5rem] mt-[.2rem]" />
