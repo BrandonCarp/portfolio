@@ -3,6 +3,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import myImage from "./imgs/me.jpg";
+// import { Transition } from "react-transition-group";
 
 const Header = () => {
   return (
