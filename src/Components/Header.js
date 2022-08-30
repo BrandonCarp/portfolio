@@ -39,7 +39,7 @@ const Header = () => {
             <div className="ml-[2rem] md:ml-0 flex flex-col justify-start  p-1 font-bold   text-base md:text-l lg:text-xl  ">
               <h1 className="">Hi there, I'm Brandon.</h1>
               <h1 className="text-spsml md:text-spmd lg:text-spl">
-                Font End
+                Front End
                 <span className="text-secondaryPurple"> Developer</span>,
               </h1>
               <h1>Linguist, and Dog Dad.</h1>
