@@ -47,7 +47,7 @@ const Header = () => {
           </div>
         </div>
         <div className=" flex flex-col-reverse p-5 md:flex-row p5">
-          <div className="ml-[2rem] md:ml-0 text-lightGrey space-y-5  font-bold mt-10 md:w-[45rem] md:mt-0 md:flex md:flex-col md:justify-center md:mr-5 lg:text-base xl:text-baselg">
+          <div className="ml-[2rem] md:ml-0  space-y-5  font-bold mt-10 md:w-[45rem] md:mt-0 md:flex md:flex-col md:justify-center md:mr-5 lg:text-base xl:text-baselg">
             <p>
               I'm a 29-year-old Self-Taught Developer, coming out of the
               Philadelphia Metropolitan Area.
@@ -55,15 +55,14 @@ const Header = () => {
             <p>
               I'm really looking forward to my first experience in a
               professional setting. I have an insatiable need to learn and grow
-              as a developer alongside senior, and junior developers.
+              as a developer.
             </p>
             <p>
-              My anime coding back story started out 2 years ago dabbling with
-              html and css for fun. However, I finally got hooked on phonics in
-              2021 learning vanilla javascript and general web development
-              basics. I have since gone on completing multiple vanila
-              javascript, and react projects. I am currently working on learning
-              full stack.
+              My story started out 2 years ago dabbling with html and css for
+              fun. However, I finally got hooked on phonics in 2021 learning
+              vanilla javascript and general web development basics. I have
+              since gone on completing multiple vanila javascript, and react
+              projects. I am currently working on learning full stack.
             </p>
           </div>
           <div className="">
