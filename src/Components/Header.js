@@ -6,7 +6,7 @@ import myImage from "./imgs/me.jpg";
 
 const Header = () => {
   return (
-    <header className="relative mb-[5rem]  md:mb-[15rem] lg:mb-[10rem] xl:mb-[10rem]  container mx-auto  ">
+    <header className="relative mb-[5rem]  md:mb-[15rem] lg:mb-[10rem] xl:mb-[10rem]  container mx-auto  p-2">
       <div className="flex flex-col items-center  mt-10 md:items-start">
         <div className="flex flex-col  ">
           <div className=" mb-[1rem] md:mb-[5rem] flex flex-col items-center   md:items-start">
@@ -36,7 +36,7 @@ const Header = () => {
               </a>
             </div>
 
-            <div className="flex flex-col justify-start p-1 font-bold   text-base md:text-l lg:text-xl  ">
+            <div className="ml-[2rem] md:ml-0 flex flex-col justify-start  p-1 font-bold   text-base md:text-l lg:text-xl  ">
               <h1 className="">Hi there, I'm Brandon.</h1>
               <h1 className="text-spsml md:text-spmd lg:text-spl">
                 Font End
@@ -47,7 +47,7 @@ const Header = () => {
           </div>
         </div>
         <div className=" flex flex-col-reverse p-5 md:flex-row p5">
-          <div className=" text-lightGrey space-y-5  font-bold mt-10 md:w-[45rem] md:mt-0 md:flex md:flex-col md:justify-center md:mr-5 lg:text-base xl:text-baselg">
+          <div className="ml-[2rem] md:ml-0 text-lightGrey space-y-5  font-bold mt-10 md:w-[45rem] md:mt-0 md:flex md:flex-col md:justify-center md:mr-5 lg:text-base xl:text-baselg">
             <p>
               I'm a 29-year-old Self-Taught Developer, coming out of the
               Philadelphia Metropolitan Area.
@@ -66,7 +66,7 @@ const Header = () => {
               full stack.
             </p>
           </div>
-          <div className=" ">
+          <div className="">
             <img className="rounded" src={myImage} alt="me" />
           </div>
         </div>

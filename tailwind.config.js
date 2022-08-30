@@ -15,6 +15,7 @@ module.exports = {
         secondaryOrange: "#262833",
         secondaryGreen: "#4ACFAC",
         secondaryPurple: "#7E8CE0",
+        secondaryPurpleLight: "#adb6eb",
         secondaryBlue: "#36C7D0",
         secondaryPink: "#FFA48E",
         linkedInColor: "#0072b1",
