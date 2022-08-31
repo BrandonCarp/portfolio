@@ -1,11 +1,9 @@
 import React from "react";
-import swapi from "./imgs/swapiApp.png";
-import tracker from "./imgs/expenseTracker.png";
-import calc from "./imgs/calcApp.png";
-import snake from "./imgs/snakeApp.png";
-import twitter from "./imgs/twitterApp.png";
-
-// ml-[2.5rem] md:ml-0
+import swapi from "./imgs/swapiApp.jpg";
+import tracker from "./imgs/expenseTracker.jpg";
+import calc from "./imgs/calcApp.jpg";
+import snake from "./imgs/snakeApp.jpg";
+import twitter from "./imgs/twitterApp.jpg";
 
 const Projects = () => {
   return (
@@ -22,8 +20,8 @@ const Projects = () => {
         </div>
         <div className="  space-y-10">
           <div className="flex flex-col items-center space-y-10  md:items-start md:flex-row md:space-x-[6rem]">
-            <div className=" mt-10 ">
-              <img className="lg:w-[90%]" src={swapi} alt="swapiApp" />
+            <div className="mt-10">
+              <img className="lg:w-[48rem]" src={swapi} alt="swapiApp" />
               <h3 className="text-md">Swapi Api</h3>
               <p className=" lg:text-base mb-2">
                 An application that utilizes the Swapi starwars Api, using React{" "}
@@ -40,11 +38,7 @@ const Projects = () => {
               href="https://brandoncarp-react-expenses.herokuapp.com/"
               className=""
             >
-              <img
-                className="md:w-[56rem] lg:w-[100%]"
-                src={tracker}
-                alt="React Expense Tracker"
-              />
+              <img className="" src={tracker} alt="React Expense Tracker" />
               <h3 className="text-md">Expense Tracker</h3>
               <p className=" lg:text-base mb-2">
                 A application that can be used to keep track of your expenses,
@@ -60,7 +54,7 @@ const Projects = () => {
           </div>
           <div className="flex flex-col items-center space-y-10  md:items-start md:flex-row md:space-x-[6rem]">
             <div className="mt-10">
-              <img className="" src={calc} alt="calculator app" />
+              <img className="lg:w-[48rem]" src={calc} alt="calculator app" />
               <h3 className="text-md">Calculator App</h3>
               <p className="  lg:text-base mb-2">
                 This is a calculator application made with Vanilla Javascript{" "}
@@ -74,12 +68,8 @@ const Projects = () => {
               </a>
             </div>
             <div className="">
-              <img
-                className="md:w-[50rem] lg:w-[100%]"
-                src={snake}
-                alt="snake game"
-              />
-              <h3 className="text-md">Classic Snake Game</h3>
+              <img className="" src={snake} alt="snake game" />
+              <h3 className="text-md">Snake Game</h3>
               <p className="  lg:text-base mb-2">
                 The classic snake game we all know and love, made with Vanilla
                 Javascript {"&"} Css
@@ -94,11 +84,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="flex flex-col justify-center space-y-10">
-          <img
-            className="mt-10 lg:h-[40rem]"
-            src={twitter}
-            alt="twitter showcase app"
-          />
+          <img className="" src={twitter} alt="twitter showcase app" />
           <div className="space-y-5 md:flex md:flex-col md:items-center">
             <h1 className="text-l">Twitter Showcase</h1>
             <p className="  md:text-base">
