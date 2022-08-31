@@ -13,7 +13,6 @@ const Header = () => {
             <h1 className="font-bold text-md  md:text-base">BRAN</h1>
             <h1 className="font-bold text-md  md:text-base">DON.</h1>
           </div>
-          <div className="invisible absolute  lg:ml-[40rem] xl:ml-[50rem]  lg:visible"></div>
           <div className="mb-1">
             <div className=" flex flex-row  justify-center  md:justify-start space-x-3 mb-10 md:mb-20">
               <a className="" href="https://github.com/BrandonCarp">
