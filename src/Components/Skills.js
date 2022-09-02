@@ -2,20 +2,18 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <div className=" container relative mx-auto   mb-[5rem]">
-      <div className="space-y-10 ">
-        <div className="px-3">
-          <h1 className="text-l flex justify-center md:justify-start">
-            My Skills
-          </h1>
+    <div className="relative container mx-auto mb-20">
+      <div className=" flex flex-col items-center p-5 space-y-10">
+        <div className="">
+          <h1 className="text-l">My Skills</h1>
         </div>
-        <div className="ml-[1rem] md:ml-0 pb-5 px-5">
-          <p className="  font-light md:text-base mx-auto ">
+        <div className="">
+          <p className="font-light">
             At the start of my coding journey I've gained an [ array ] of
             practical skills. All of which I cultivated from real world use.
           </p>
         </div>
-        <div className="marker:text-secondaryPurple text-sm px-5 ml-[2.5rem] md:ml-0  grid grid-rows-4 md:grid-rows-2 grid-flow-col gap-5 md:text-base">
+        <div className="marker:text-secondaryPurple   grid grid-rows-4 md:grid-rows-2 grid-flow-col gap-5 ">
           <li>Javascript ES6</li>
           <li>Node.js</li>
           <li>Express.js</li>

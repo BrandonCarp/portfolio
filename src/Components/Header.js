@@ -6,47 +6,43 @@ import myImage from "./imgs/me.jpg";
 
 const Header = () => {
   return (
-    <header className="relative mb-[5rem]  md:mb-[15rem] lg:mb-[10rem] xl:mb-[10rem]  container mx-auto  p-2">
-      <div className="flex flex-col items-center  mt-10 md:items-start">
-        <div className="flex flex-col  ">
-          <div className=" mb-[1rem] md:mb-[5rem] flex flex-col items-center   md:items-start">
-            <h1 className="font-bold text-md  md:text-base">BRAN</h1>
-            <h1 className="font-bold text-md  md:text-base">DON.</h1>
-          </div>
-          <div className="mb-1">
-            <div className=" flex flex-row  justify-center  md:justify-start space-x-3 mb-10 md:mb-20">
-              <a className="" href="https://github.com/BrandonCarp">
-                <FaGithub
-                  size="1.8rem"
-                  className="transition ease-in-out delay-150   hover:text-secondaryPurple hover:-translate-y-1 hover:scale-110 duration-300"
-                />
-              </a>
-              <a href="https://www.linkedin.com/in/brandon-carpenter-559b15203/">
-                <FaLinkedin
-                  size="1.8rem"
-                  className="transition ease-in-out delay-150  hover:text-linkedInColor hover:-translate-y-1 hover:scale-110 duration-300"
-                />
-              </a>
-              <a href="https://www.instagram.com/bcarpol/">
-                <FaInstagram
-                  size="1.8rem"
-                  className="transition ease-in-out delay-150 hover:text-secondaryPink hover:-translate-y-1 hover:scale-110 duration-300"
-                />
-              </a>
-            </div>
-
-            <div className="ml-[2rem] md:ml-0 flex flex-col justify-start  p-1 font-bold   text-base md:text-l lg:text-xl  ">
-              <h1 className="">Hi there, I'm Brandon.</h1>
-              <h1 className="text-spsml md:text-spmd lg:text-spl">
-                Front End
-                <span className="text-secondaryPurple"> Developer</span>,
-              </h1>
-              <h1>Linguist, and Dog Dad.</h1>
-            </div>
-          </div>
+    <header className="relative mx-auto container  ">
+      <div className="flex flex-col items-center pt-10">
+        <div className="mb-5">
+          <h1 className="font-bold text-l  ">BRAN</h1>
+          <h1 className="font-bold text-l ml-2 md:ml-0">DON.</h1>
         </div>
-        <div className=" flex flex-col-reverse p-5 md:flex-row p5">
-          <div className="ml-[2rem] md:ml-0  space-y-5  font-bold mt-10 md:w-[45rem] md:mt-0 md:flex md:flex-col md:justify-center md:mr-5 lg:text-base xl:text-baselg">
+        <div className="flex space-x-3 mb-20">
+          <a className="" href="https://github.com/BrandonCarp">
+            <FaGithub
+              size="1.8rem"
+              className="   hover:text-secondaryPurple hover:-translate-y-1 hover:scale-110 duration-300"
+            />
+          </a>
+          <a href="https://www.linkedin.com/in/brandon-carpenter-559b15203/">
+            <FaLinkedin
+              size="1.8rem"
+              className=" hover:text-linkedInColor hover:-translate-y-1 hover:scale-110 duration-300"
+            />
+          </a>
+          <a href="https://www.instagram.com/bcarpol/">
+            <FaInstagram
+              size="1.8rem"
+              className=" hover:text-secondaryPink hover:-translate-y-1 hover:scale-110 duration-300"
+            />
+          </a>
+        </div>
+        <div className="flex flex-col items-center mb-10">
+          <h1 className="text-baselg">Hi there, I'm Brandon.</h1>
+          <h1 className="text-l">
+            Front End
+            <span className="text-secondaryPurple"> Developer</span>,
+          </h1>
+          <h1 className="text-baselg">Linguist, and Dog Dad.</h1>
+        </div>
+
+        <div className=" flex flex-col-reverse mb-20">
+          <div className="flex flex-col space-y-5 p-5 font-light">
             <p>
               I'm a 29-year-old Self-Taught Developer, coming out of the
               Philadelphia Metropolitan Area.
@@ -64,7 +60,7 @@ const Header = () => {
               projects. I am currently working on learning full stack.
             </p>
           </div>
-          <div className="">
+          <div className=" p-5">
             <img className="rounded" src={myImage} alt="me" />
           </div>
         </div>
