@@ -5,8 +5,8 @@ const Footer = () => {
     <div className="relative container mx-auto p-5">
       <div className="mb-20 flex flex-col">
         <div className="space-y-3 mb-5 flex flex-col items-center">
-          <h1 className="text-l">Let's Talk</h1>
-          <p className="font-light pl-2 md:pl-0 ">
+          <h1 className="text-l md:text-xl">Let's Talk</h1>
+          <p className="font-light pl-2 md:pl-0 md:text-[1.2rem]">
             Need a developer, have questions, or just wanna say hi. I'm looking
             forward to your email.
           </p>

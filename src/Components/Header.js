@@ -7,42 +7,49 @@ import myImage from "./imgs/me.jpg";
 const Header = () => {
   return (
     <header className="relative mx-auto container  ">
-      <div className="flex flex-col items-center pt-10">
-        <div className="mb-5">
-          <h1 className="font-bold text-l  ">BRAN</h1>
-          <h1 className="font-bold text-l ml-2 md:ml-0">DON.</h1>
+      <div className="flex flex-col items-center md:items-start pt-10">
+        <div className="mb-5 pl-5">
+          <h1 className="font-bold text-l md:text-base  ">BRAN</h1>
+          <h1 className="font-bold text-l ml-2 md:text-base md:ml-0">DON.</h1>
         </div>
-        <div className="flex space-x-3 mb-20">
+        <div className="flex space-x-3 mb-20 pl-5 ">
           <a className="" href="https://github.com/BrandonCarp">
             <FaGithub
-              size="1.8rem"
-              className="   hover:text-secondaryPurple hover:-translate-y-1 hover:scale-110 duration-300"
+              size="1.5rem"
+              className="   hover:text-secondaryPurple hover:-translate-y-1 hover:scale-110 duration-300 md:text-base"
             />
           </a>
           <a href="https://www.linkedin.com/in/brandon-carpenter-559b15203/">
             <FaLinkedin
-              size="1.8rem"
-              className=" hover:text-linkedInColor hover:-translate-y-1 hover:scale-110 duration-300"
+              size="1.5rem"
+              className=" hover:text-linkedInColor hover:-translate-y-1 hover:scale-110 duration-300 md:text-base"
             />
           </a>
           <a href="https://www.instagram.com/bcarpol/">
             <FaInstagram
-              size="1.8rem"
+              size="1.5rem"
               className=" hover:text-secondaryPink hover:-translate-y-1 hover:scale-110 duration-300"
             />
           </a>
         </div>
-        <div className="flex flex-col items-center mb-10">
-          <h1 className="text-baselg">Hi there, I'm Brandon.</h1>
-          <h1 className="text-l">
+        <div className="flex flex-col items-center md:items-start pl-5 mb-10">
+          <h1 className="text-baselg md:text-l lg:text-xl">
+            Hi there, I'm Brandon.
+          </h1>
+          <h1 className="text-l md:text-xl lg:text-xxl">
             Front End
             <span className="text-secondaryPurple"> Developer</span>,
           </h1>
-          <h1 className="text-baselg">Linguist, and Dog Dad.</h1>
+          <h1 className="text-baselg md:text-l lg:text-xl">
+            Linguist, and Dog Dad.
+          </h1>
         </div>
 
-        <div className=" flex flex-col-reverse mb-20">
-          <div className="flex flex-col space-y-5 p-5 font-light">
+        <div className=" flex flex-col-reverse md:flex-row mb-20">
+          <div
+            className="flex flex-col space-y-5 p-5 font-light md:justify-center  md:text-[1.1rem] md:w-[80%] lg:text-baselg xl:text-md 
+          "
+          >
             <p>
               I'm a 29-year-old Self-Taught Developer, coming out of the
               Philadelphia Metropolitan Area.
