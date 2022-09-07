@@ -7,6 +7,7 @@ My Professional Portfolio
 
 <h1>Summary</h1>
 This is my fully responsive professional portfolio made with React & tailwind.css
+<br>
 View it here https://brandoncarp.netlify.app/
 
 <h1>Author</h1>
