@@ -84,7 +84,7 @@ const Header = () => {
               My story started out 2 years ago dabbling with html and css for
               fun. However, I finally got hooked on phonics in 2021 learning
               vanilla javascript and general web development basics. I have
-              since gone on completing multiple vanila javascript, and react
+              since gone on completing multiple vanila javascript and react
               projects. I am currently working on learning full stack.
             </p>
           </div>
