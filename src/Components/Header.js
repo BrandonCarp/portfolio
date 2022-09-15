@@ -26,7 +26,7 @@ const Header = () => {
         onClick={playLofi}
         className=" absolute left-[97%]  mt-10 bg-white text-black px-3 rounded font-bold  hover:-translate-y-1  hover:scale-110 duration-300"
       >
-        Lofi
+        Lofis
       </button>
       <div className="flex flex-col items-center md:items-start pt-10">
         <div className="mb-5 pl-5">
