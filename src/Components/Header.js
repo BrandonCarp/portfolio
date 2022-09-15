@@ -24,7 +24,7 @@ const Header = () => {
     <header className="relative mx-auto container ">
       <button
         onClick={playLofi}
-        className=" absolute left-[97%]  mt-10 bg-white text-black px-3 rounded font-bold  hover:-translate-y-1  hover:scale-110 duration-300"
+        className=" absolute left-[85%]  mt-10 bg-white text-black px-3 rounded font-bold  hover:-translate-y-1  hover:scale-110 duration-300"
       >
         Lofi
       </button>
