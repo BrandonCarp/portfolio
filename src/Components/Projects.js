@@ -11,7 +11,7 @@ const Projects = () => {
       <div className="flex flex-col items-center space-y-5  ">
         <h1 className="text-md md:text-xl">What I've been up to</h1>
         <p className="font-light text-[1.1rem]  md:px-10 lg:px-20">
-          I want to learn as much as possible, and love staying busy so what
+          I want to learn as much as possible and love staying busy so what
           better way to learn than testing ideas out in new applications. Take a
           look at my most recent applications I have dedicated my free time to.
         </p>
