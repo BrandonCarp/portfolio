@@ -14,11 +14,11 @@ const Skills = () => {
           </p>
         </div>
         <div className="marker:text-secondaryPurple   grid grid-rows-4 md:grid-rows-2 grid-flow-col gap-5  ">
-          <li className="md:text-[1.2rem]">Javascript ES6</li>
+          <li className="md:text-[1.2rem]">Vanilla Javascript ES6</li>
           <li className="md:text-[1.2rem]">Node.js</li>
           <li className="md:text-[1.2rem]">Express.js</li>
-          <li className="md:text-[1.2rem]">Bootstrap</li>
-          <li className="md:text-[1.2rem]">HTML {"&"} CSS</li>
+          <li className="md:text-[1.2rem]">Responsive Design</li>
+          <li className="md:text-[1.2rem]">Google</li>
           <li className="md:text-[1.2rem]">React</li>
           <li className="md:text-[1.2rem]">Tailwind</li>
           <li className="md:text-[1.2rem]">Git</li>

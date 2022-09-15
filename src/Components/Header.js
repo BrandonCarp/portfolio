@@ -1,12 +1,33 @@
-import React from "react";
+import { useState, useRef } from "react";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import myImage from "./imgs/me.jpg";
+import lofi from "./imgs/lofi.mp3";
 
 const Header = () => {
+  const [music, setMusic] = useState(false);
+
+  const audioRef = useRef(new Audio(lofi));
+
+  const playLofi = () => {
+    if (music) {
+      setMusic(false);
+      audioRef.current.pause();
+    } else {
+      setMusic(true);
+      audioRef.current.play();
+    }
+  };
+
   return (
-    <header className="relative mx-auto container  ">
+    <header className="relative mx-auto container ">
+      <button
+        onClick={playLofi}
+        className=" absolute left-[97%]  mt-10 bg-white text-black px-3 rounded font-bold  hover:-translate-y-1  hover:scale-110 duration-300"
+      >
+        Lofi
+      </button>
       <div className="flex flex-col items-center md:items-start pt-10">
         <div className="mb-5 pl-5">
           <h1 className="font-bold text-l md:text-base  ">BRAN</h1>
