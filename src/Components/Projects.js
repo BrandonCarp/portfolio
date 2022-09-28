@@ -99,11 +99,18 @@ const Projects = () => {
         <div className="space-y-3 flex flex-col items-center">
           <h1 className="text-md md:text-l">Twitter Showcase</h1>
           <p className="font-light md:text-[1.2rem]">
-            What I am working on now, a <span className="">Twitter</span>{" "}
-            showcase full stack application that lets you see all of your
-            favorite users tweets, and even random tweets of a specific user.
+            What I am working on now, <span className="">TWEETER</span> a
+            twitter showcase full stack application that lets you see all of
+            your favorite users tweets, and even random tweets of a specific
+            user.
           </p>
           <h3 className="font-bold">COMING SOON</h3>
+          <a
+            href="https://github.com/BrandonCarp/tweeter"
+            className="bg-secondaryPurple  px-2 py-1  rounded-full text-black font-bold hover:bg-secondaryPurpleLight"
+          >
+            See Progress
+          </a>
         </div>
       </div>
     </div>
