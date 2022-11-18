@@ -17,7 +17,7 @@ const Projects = () => {
         </p>
       </div>
       <div className="">
-        <div className="grid-cols-2   mb-5 p-5 md:space-x-20 md:flex ">
+        <div className="   mb-5 p-5 md:space-x-20 md:flex ">
           <div className="flex mx-auto container">
             <div className="flex flex-col items-center justify-center mb-10 md:mb-0">
               <div>
