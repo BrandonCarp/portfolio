@@ -17,43 +17,55 @@ const Projects = () => {
         </p>
       </div>
       <div className="">
-        <div className="relative mx-auto container   mb-5 p-5 md:space-x-20 md:flex ">
-          <div className="flex flex-col items-center justify-center mb-10 md:mb-0">
-            <div>
-              <img className="" src={swapi} alt="React Expense Tracker" />
-            </div>
-            <div className="space-y-3 flex flex-col items-center">
-              <h3 className="text-baselg pt-3">StarWars Api</h3>
-              <p className=" font-light ml-4 md:ml-0">
-                A react application utilizing the swapi api to search starwars
-                characters
-              </p>
+        <div className="grid-cols-2   mb-5 p-5 md:space-x-20 md:flex ">
+          <div className="flex mx-auto container">
+            <div className="flex flex-col items-center justify-center mb-10 md:mb-0">
+              <div>
+                <img className="" src={swapi} alt="star wars api" />
+              </div>
+              <div className="space-y-3 flex flex-col items-center ">
+                <h3 className="text-baselg pt-3">StarWars Api</h3>
+                <p className=" font-light  ml-4 md:ml-0">
+                  A react application utilizing the swapi api to search starwars
+                  characters. I am currently refactoring this application. I am
+                  making it fully responsive, and adding react query. This
+                  application nay not work currently. Stay Tuned
+                </p>
 
-              <a
-                href="https://brandoncarp-swapi-app.herokuapp.com/"
-                className="bg-secondaryPurple  px-2 py-1  rounded-full text-black font-bold hover:bg-secondaryPurpleLight"
-              >
-                View Project
-              </a>
+                <a
+                  href="https://brandoncarp-swapi-app.herokuapp.com/"
+                  className="bg-secondaryPurple  px-2 py-1  rounded-full text-black font-bold hover:bg-secondaryPurpleLight"
+                >
+                  View Project
+                </a>
+              </div>
             </div>
           </div>
 
-          <div className="flex flex-col items-center justify-center">
-            <div>
-              <img className="" src={tracker} alt="React Expense Tracker" />
-            </div>
-            <div className="space-y-3 flex flex-col items-center">
-              <h3 className="text-baselg pt-3">Expense Tracker</h3>
-              <p className=" font-light ml-4 md:ml-0">
-                A react application to help you manage your expenses
-              </p>
+          <div className="relative mx-auto container">
+            <div
+              className="
+              flex
+              flex-col
+              items-center
+              justify-center"
+            >
+              <div>
+                <img className="" src={tracker} alt="React Expense Tracker" />
+              </div>
+              <div className="space-y-3 flex flex-col items-center">
+                <h3 className="text-baselg pt-3">Expense Tracker</h3>
+                <p className=" font-light ml-4 md:ml-0">
+                  A react application to help you manage your expenses
+                </p>
 
-              <a
-                href="https://brandoncarp-react-expenses.herokuapp.com/"
-                className="bg-secondaryPurple  px-2 py-1  rounded-full text-black font-bold hover:bg-secondaryPurpleLight"
-              >
-                View Project
-              </a>
+                <a
+                  href="https://brandoncarp-react-expenses.herokuapp.com/"
+                  className="bg-secondaryPurple  px-2 py-1  rounded-full text-black font-bold hover:bg-secondaryPurpleLight"
+                >
+                  View Project
+                </a>
+              </div>
             </div>
           </div>
         </div>
