@@ -27,9 +27,8 @@ const Projects = () => {
                 <h3 className="text-baselg pt-3">StarWars Api</h3>
                 <p className=" font-light  ml-4 md:ml-0">
                   A react application utilizing the swapi api to search starwars
-                  characters. I am currently refactoring this application. I am
-                  making it fully responsive, and adding react query. This
-                  application nay not work currently. Stay Tuned
+                  characters. I manage the state using React Query, and styled
+                  with Tailwind.
                 </p>
 
                 <a
