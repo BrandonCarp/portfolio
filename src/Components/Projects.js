@@ -32,7 +32,7 @@ const Projects = () => {
                 </p>
 
                 <a
-                  href="https://brandoncarp-swapi-app.herokuapp.com/"
+                  href="https://starwarsreactapi.netlify.app/"
                   className="bg-secondaryPurple  px-2 py-1  rounded-full text-black font-bold hover:bg-secondaryPurpleLight"
                 >
                   View Project
