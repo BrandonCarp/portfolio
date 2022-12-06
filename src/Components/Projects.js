@@ -55,11 +55,12 @@ const Projects = () => {
               <div className="space-y-3 flex flex-col items-center">
                 <h3 className="text-baselg pt-3">Expense Tracker</h3>
                 <p className=" font-light ml-4 md:ml-0">
-                  A react application to help you manage your expenses
+                  A react application to help you manage your expenses, styled
+                  with bootstrap.
                 </p>
 
                 <a
-                  href="https://brandoncarp-react-expenses.herokuapp.com/"
+                  href="https://react-expense-tracker22.netlify.app/"
                   className="bg-secondaryPurple  px-2 py-1  rounded-full text-black font-bold hover:bg-secondaryPurpleLight"
                 >
                   View Project
