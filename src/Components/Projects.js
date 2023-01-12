@@ -32,7 +32,7 @@ const Projects = () => {
                 </p>
 
                 <a
-                  href="https://starwarsreactapi.netlify.app/"
+                  href="https://star-wars-api-eta.vercel.app/"
                   className="bg-secondaryPurple  px-2 py-1  rounded-full text-black font-bold hover:bg-secondaryPurpleLight"
                 >
                   View Project
