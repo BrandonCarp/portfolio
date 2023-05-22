@@ -24,7 +24,7 @@ const Projects = () => {
             <p className="font-light md:text-[1.2rem]">
               DailyVid! My most recent project to date. A video search
               application, with a random video generator page. Created using a
-              React front end, with a express back end. Styled with Tailwind and
+              React front end, with a Express back end. Styled with Tailwind and
               a drop of vanilla css.
             </p>
             <a
