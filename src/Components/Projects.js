@@ -3,7 +3,7 @@ import swapi from "./imgs/swapiApp.jpg";
 import tracker from "./imgs/expenseTracker.jpg";
 import calc from "./imgs/calcApp.jpg";
 import snake from "./imgs/snakeApp.jpg";
-import twitter from "./imgs/twitterApp.jpg";
+import dailyvid from "./imgs/dailyvidApp.png";
 
 const Projects = () => {
   return (
@@ -17,6 +17,24 @@ const Projects = () => {
         </p>
       </div>
       <div className="">
+        <div className="space-y-5 flex flex-col items-center justify-center mt-10 mb-10">
+          <img className="w-[80%]" src={dailyvid} alt="twitter showcase app" />
+          <div className="space-y-3 flex flex-col items-center">
+            <h1 className="text-md md:text-l">DailyVid</h1>
+            <p className="font-light md:text-[1.2rem]">
+              DailyVid! My most recent project to date. A video search
+              application, with a random video generator page. Created using a
+              React front end, with a express back end. Styled with Tailwind and
+              a drop of vanilla css.
+            </p>
+            <a
+              href="https://daily-vid-brandoncarp.vercel.app/"
+              className="bg-secondaryPurple  px-2 py-1  rounded-full text-black font-bold hover:bg-secondaryPurpleLight"
+            >
+              View Project
+            </a>
+          </div>
+        </div>
         <div className="   mb-5 p-5 md:space-x-20 md:flex ">
           <div className="flex mx-auto container">
             <div className="flex flex-col items-center justify-center mb-10 md:mb-0">
@@ -106,7 +124,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="space-y-5 flex flex-col items-center justify-center">
+      {/* <div className="space-y-5 flex flex-col items-center justify-center">
         <img className="" src={twitter} alt="twitter showcase app" />
         <div className="space-y-3 flex flex-col items-center">
           <h1 className="text-md md:text-l">Twitter Showcase</h1>
@@ -124,7 +142,7 @@ const Projects = () => {
             See Progress
           </a>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
