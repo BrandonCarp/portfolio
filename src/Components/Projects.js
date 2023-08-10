@@ -28,7 +28,7 @@ const Projects = () => {
               a drop of vanilla css.
             </p>
             <a
-              href="https://daily-vid-brandoncarp.vercel.app/"
+              href="https://daily-vid.vercel.app/"
               className="bg-secondaryPurple  px-2 py-1  rounded-full text-black font-bold hover:bg-secondaryPurpleLight"
             >
               View Project
