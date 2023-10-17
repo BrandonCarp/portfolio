@@ -81,11 +81,11 @@ const Header = () => {
               as a developer.
             </p>
             <p>
-              My story started out 2 years ago dabbling with html and css for
-              fun. However, I finally got hooked on phonics in 2021 learning
-              vanilla javascript and general web development basics. I have
-              since gone on completing multiple vanila javascript and react
-              projects. I am currently working on learning full stack.
+              My journey began two years ago when I first dabbled with HTML and
+              CSS just for fun. In 2021, I found my true passion in web
+              development, immersing myself in vanilla JavaScript and general
+              web development fundamentals. Since then, I've taken on numerous
+              projects, covering both frontend and backend development.
             </p>
           </div>
           <div className=" p-5">
