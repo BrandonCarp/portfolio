@@ -58,7 +58,7 @@ const Header = () => {
             Hi there, I'm Brandon.
           </h1>
           <h1 className="text-l md:text-xl lg:text-xxl">
-            Front End
+            Software
             <span className="text-secondaryPurple"> Developer</span>,
           </h1>
           <h1 className="text-baselg md:text-l lg:text-xl">
