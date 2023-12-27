@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 const Footer = () => {
   return (
@@ -39,16 +39,10 @@ const Footer = () => {
           >
             Linkedin
           </a>
-          <a
-            href="https://www.instagram.com/bcarpol/"
-            className=" hover:text-secondaryPink"
-          >
-            Instagram
-          </a>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

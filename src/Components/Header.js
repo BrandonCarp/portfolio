@@ -1,24 +1,24 @@
-import { useState, useRef } from "react";
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import myImage from "./imgs/me.jpg";
-import lofi from "./imgs/lofi.mp3";
+import { useState, useRef } from "react"
+import { FaGithub } from "react-icons/fa"
+import { FaLinkedin } from "react-icons/fa"
+import { FaInstagram } from "react-icons/fa"
+import myImage from "./imgs/me.jpg"
+import lofi from "./imgs/lofi.mp3"
 
 const Header = () => {
-  const [music, setMusic] = useState(false);
+  const [music, setMusic] = useState(false)
 
-  const audioRef = useRef(new Audio(lofi));
+  const audioRef = useRef(new Audio(lofi))
 
   const playLofi = () => {
     if (music) {
-      setMusic(false);
-      audioRef.current.pause();
+      setMusic(false)
+      audioRef.current.pause()
     } else {
-      setMusic(true);
-      audioRef.current.play();
+      setMusic(true)
+      audioRef.current.play()
     }
-  };
+  }
 
   return (
     <header className="relative mx-auto container ">
@@ -44,12 +44,6 @@ const Header = () => {
             <FaLinkedin
               size="1.5rem"
               className=" hover:text-linkedInColor hover:-translate-y-1 hover:scale-110 duration-300 md:text-base"
-            />
-          </a>
-          <a href="https://www.instagram.com/bcarpol/">
-            <FaInstagram
-              size="1.5rem"
-              className=" hover:text-secondaryPink hover:-translate-y-1 hover:scale-110 duration-300"
             />
           </a>
         </div>
@@ -94,7 +88,7 @@ const Header = () => {
         </div>
       </div>
     </header>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header
