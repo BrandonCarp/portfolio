@@ -46,6 +46,12 @@ const Header = () => {
               className=" hover:text-linkedInColor hover:-translate-y-1 hover:scale-110 duration-300 md:text-base"
             />
           </a>
+          <a
+            href="https://docs.google.com/document/d/1VThVoTYcQSk6q8SUDEADnDPbi33D00Q0Z46aVF3UBKU/edit?usp=sharing"
+            className="hover:text-green-700"
+          >
+            Resume
+          </a>
         </div>
         <div className="flex flex-col items-center md:items-start pl-5 mb-10">
           <h1 className="text-baselg md:text-l lg:text-xl">

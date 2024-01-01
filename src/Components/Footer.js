@@ -39,6 +39,12 @@ const Footer = () => {
           >
             Linkedin
           </a>
+          <a
+            href="https://docs.google.com/document/d/1VThVoTYcQSk6q8SUDEADnDPbi33D00Q0Z46aVF3UBKU/edit?usp=sharing"
+            className="hover:text-green-700"
+          >
+            Resume
+          </a>
         </div>
       </div>
     </div>
